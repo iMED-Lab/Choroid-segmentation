@@ -19,15 +19,15 @@ import torch.distributed as dist
 import numpy as np
 
 args = {
-    "root":"/home/imed/personal/wwj/oct_data(Heideberg)/",
+    "root":"",
     "img_save_path":"./save_img",
     "epoches":400,
     "lr":1e-4,
     "snapshot":100,
     "test_step":1,
-    "ckpt_path":"/home/imed/personal/wwj/choroid/result/",
+    "ckpt_path":"",
     "batch_size":8,
-    "name":"wwj_choroid_vggsh3",
+    "name":"",
 }
 
 
